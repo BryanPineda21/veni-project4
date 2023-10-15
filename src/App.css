@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-image: url('https://images4.alphacoders.com/132/1327364.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap; 
+}
+
+
+
+
+
+
+
+.BannedAttributes {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://wallpaper.dog/large/10787142.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+.cat-image{
+width: 250px;
+height: 250px;
+border: solid;
+border-radius: 50px;
+
+}
+.BannedAttributes ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.BannedAttributes{
+  border: solid;
+  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.BannedAttributesContainer li {
+  display: inline; /* Display list items as inline elements */
+  margin-right: 10px; /* Add spacing between list items */
+  list-style-type: none;
+  align-content: center;
+
+}
+.list-attribute{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  flex-direction: row;
+  margin-right: 10px; /* Add spacing between list items */
+  list-style-type: none;
+  padding: 30;
+  background-color:salmon;
+  border: solid;
+  border-radius: 45px;
+  height: 50px;
+  border-color: black;
+
+}
+
+.list-attribute:hover{
+
+  box-shadow: 5px 5px 5px blue;
+
+}
+
+.cat-info{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  flex-direction: row;
+  padding: 40px;
+  align-items: center;
+  background-color: blueviolet;
+  border:solid;
+  border-radius: 50px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  background-color: lightcoral;
+  border:solid;
+  border-radius: 50px;
+}
+
+.info:hover{
+  box-shadow: 5px 5px 5px blue;
+}
+
+
+
+.fetch-data-btn{
+
+  background-color: blue;
+}
+
+.fetch-data-btn:hover{
+  box-shadow: 5px 5px 5px greenyellow;
+
+}
